@@ -11,7 +11,7 @@ public class ResultTester {
 	@Test
 	@Ignore
 	public void test() {
-		Solution_01_FirstVersion solution = new Solution_01_FirstVersion();
+		Solution_01_StackOverFlow solution = new Solution_01_StackOverFlow();
 		int[] result = solution.twoSum(TEST_INT_ARRAY, TEST_TARGET);
 		System.out.println("First Index is : " + result[0]
 				+ " and Next Index is : " + result[1] + ".");
@@ -19,7 +19,7 @@ public class ResultTester {
 	
 	@Test
 	public void test2() {
-		Solution_02_PreventOverFlowError solution = new Solution_02_PreventOverFlowError();
+		Solution_02_TimeLimitExceeded solution = new Solution_02_TimeLimitExceeded();
 		int[] result = solution.twoSum(TEST_INT_ARRAY, TEST_TARGET);
 		System.out.println("First Index is : " + result[0]
 				+ " and Next Index is : " + result[1] + ".");

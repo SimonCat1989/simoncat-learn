@@ -24,7 +24,7 @@ package com.simoncat.learn.Q001_TwoSum;
  * @author simoncat
  *
  */
-public class Solution_02_PreventOverFlowError {
+public class Solution_02_TimeLimitExceeded {
 
 	private int[] nums;
 	private int length;

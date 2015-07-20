@@ -27,7 +27,7 @@ import java.util.List;
  * @author simoncat
  *
  */
-public class Solution_01_FirstVersion {
+public class Solution_01_StackOverFlow {
 
 	public int[] twoSum(int[] nums, int target) {
 		// Assume the input parameter is correct.
