@@ -26,10 +26,23 @@ public class ResultTester {
 				+ " and Next Index is : " + result[1] + ".");
 	}
 	
+	private static final int[] TEST_INT_ARRAY_FOR_3 = new int[] {3,2,4};
+	private static final int TEST_TARGET_FOR_3 = 6;
 	@Test
+	@Ignore
 	public void test3() {
-		Solution_03 solution = new Solution_03();
-		int[] result = solution.twoSum(TEST_INT_ARRAY, TEST_TARGET);
+		Solution_03_AcceptedButNotBest solution = new Solution_03_AcceptedButNotBest();
+		int[] result = solution.twoSum(TEST_INT_ARRAY_FOR_3, TEST_TARGET_FOR_3);
+		System.out.println("First Index is : " + result[0]
+				+ " and Next Index is : " + result[1] + ".");
+	}
+	
+	private static final int[] TEST_INT_ARRAY_FOR_4 = new int[] {3,2,4};
+	private static final int TEST_TARGET_FOR_4 = 6;
+	@Test
+	public void test4() {
+		Solution_05_HashMap solution = new Solution_05_HashMap();
+		int[] result = solution.twoSum(TEST_INT_ARRAY_FOR_4, TEST_TARGET_FOR_4);
 		System.out.println("First Index is : " + result[0]
 				+ " and Next Index is : " + result[1] + ".");
 	}
