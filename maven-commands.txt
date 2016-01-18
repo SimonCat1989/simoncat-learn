@@ -1,0 +1,9 @@
+mvn archetype:generate -DgroupId=com.simoncat.learn -DartifactId=simoncat-learn-google-closure-lib -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+
+mvn archetype:generate -DgroupId=com.simoncat.learn -DartifactId=simoncat-learn-google-closure-lib -DarchetypeArtifactId=maven-archetype-webapp -DinteractiveMode=false
+
+mvn dependency:sources
+mvn dependency:resolve -Dclassifier=javadoc
+
+The first command will attempt to download source code for each of the dependencies in your pom file.
+The second command will attempt to download the Javadocs.

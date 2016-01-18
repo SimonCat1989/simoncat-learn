@@ -1,0 +1,27 @@
+.metadata
+.project
+.classpath
+.checkstyle
+.factorypath
+.settings/
+.externalToolBuilders/
+target/
+bin/
+*.db
+*.log
+*.bak
+*.swp
+*.swo
+*~
+*#
+
+# Generated bin data
+target/
+node_modules/
+build/
+
+# eclipse-plugin generated things
+.classpath
+.project
+.checkstyle
+.settings/
